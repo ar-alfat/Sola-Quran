@@ -1,0 +1,1010 @@
+<!DOCTYPE html><html lang="bn"><head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Sola Quran: Reaffirming the Sufficiency of Divine Scripture</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Bengali:wght@400;500;600;700&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        'bengali': ['Noto Serif Bengali', 'serif'],
+                        'sans': ['Inter', 'sans-serif']
+                    },
+                    colors: {
+                        'primary': '#1e3a8a',
+                        'secondary': '#475569',
+                        'accent': '#f59e0b',
+                        'neutral': '#374151',
+                        'base-100': '#ffffff',
+                        'base-200': '#f8fafc',
+                        'base-300': '#e2e8f0'
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .arabic-text {
+            font-family: 'Traditional Arabic', 'Arial', sans-serif;
+            direction: rtl;
+        }
+        .hero-overlay {
+            background: linear-gradient(135deg, rgba(30, 58, 138, 0.85) 0%, rgba(71, 85, 105, 0.75) 100%);
+        }
+        .section-divider {
+            background: linear-gradient(90deg, transparent 0%, #1e3a8a 50%, transparent 100%);
+            height: 1px;
+        }
+        .toc-link {
+            transition: all 0.3s ease;
+        }
+        .toc-link:hover {
+            background-color: rgba(30, 58, 138, 0.1);
+            border-left: 3px solid #1e3a8a;
+        }
+        .citation-link {
+            color: #1e3a8a;
+            text-decoration: none;
+            font-weight: 500;
+            border-bottom: 1px dotted #1e3a8a;
+        }
+        .citation-link:hover {
+            background-color: rgba(30, 58, 138, 0.1);
+        }
+        .highlight-box {
+            background: linear-gradient(135deg, rgba(245, 158, 11, 0.1) 0%, rgba(30, 58, 138, 0.05) 100%);
+            border-left: 4px solid #f59e0b;
+        }
+    </style>
+  </head>
+
+  <body class="bg-base-100 font-sans text-neutral">
+    <!-- Fixed Table of Contents -->
+    <div class="fixed left-0 top-0 h-full w-80 bg-base-200 shadow-lg overflow-y-auto z-50 hidden lg:block">
+      <div class="p-6">
+        <h3 class="font-bengali text-lg font-bold text-primary mb-4">সূচিপত্র</h3>
+        <nav class="space-y-2">
+          <a href="#introduction" class="toc-link block py-2 px-3 rounded text-sm font-medium text-secondary hover:text-primary">ভূমিকা</a>
+          <a href="#quran-completeness" class="toc-link block py-2 px-3 rounded text-sm font-medium text-secondary hover:text-primary">কুরআনের পূর্ণতা</a>
+          <a href="#hadith-history" class="toc-link block py-2 px-3 rounded text-sm font-medium text-secondary hover:text-primary">হাদীসের ঐতিহাসিক সমস্যা</a>
+          <a href="#sanad-issues" class="toc-link block py-2 px-3 rounded text-sm font-medium text-secondary hover:text-primary">সনদ সংক্রান্ত সমস্যা</a>
+          <a href="#matn-issues" class="toc-link block py-2 px-3 rounded text-sm font-medium text-secondary hover:text-primary">মতন সংক্রান্ত সমস্যা</a>
+          <a href="#criticism" class="toc-link block py-2 px-3 rounded text-sm font-medium text-secondary hover:text-primary">বিতর্কিত বিধানের সমালোচনা</a>
+          <a href="#arguments" class="toc-link block py-2 px-3 rounded text-sm font-medium text-secondary hover:text-primary">হাদীসবাদীদের যুক্তির জবাব</a>
+          <a href="#harmful-effects" class="toc-link block py-2 px-3 rounded text-sm font-medium text-secondary hover:text-primary">হাদীস মানার ক্ষতিকর দিক</a>
+          <a href="#conclusion" class="toc-link block py-2 px-3 rounded text-sm font-medium text-secondary hover:text-primary">উপসংহার</a>
+        </nav>
+      </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="lg:ml-80">
+      <!-- Hero Section -->
+      <section class="relative min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
+        <div class="hero-overlay absolute inset-0"></div>
+        <div class="relative z-10 container mx-auto px-6 py-16">
+          <!-- Bento Grid Layout -->
+          <div class="grid grid-cols-1 md:grid-cols-12 gap-8 items-start">
+            <!-- Main Title Section -->
+            <div class="md:col-span-8">
+              <div class="bg-white/95 backdrop-blur-sm rounded-2xl p-8 shadow-xl">
+                <h1 class="font-bengali text-3xl sm:text-4xl md:text-5xl font-bold text-primary leading-tight mb-6">
+                  <span class="italic text-accent">Sola Quran:</span>
+                  <br/>
+                  Reaffirming the Sufficiency of Divine Scripture
+                </h1>
+                <p class="text-lg sm:text-xl text-secondary leading-relaxed mb-8" style="word-wrap: break-word;">
+                         ABDUR RAHMAN ALFAT (AUTHOR) 
+                </p>
+                <div class="flex flex-wrap gap-4">
+                  <span class="bg-primary text-white px-4 py-2 rounded-full text-sm font-medium">
+                    <i class="fas fa-book-quran mr-2"></i>কুরআনিক গবেষণা
+                  </span>
+                  <span class="bg-accent text-white px-4 py-2 rounded-full text-sm font-medium">
+                    <i class="fas fa-brain mr-2"></i>যুক্তিনিষ্ঠ বিশ্লেষণ
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Key Highlights -->
+            <div class="md:col-span-4 space-y-4">
+              <div class="bg-white/90 backdrop-blur-sm rounded-xl p-6 shadow-lg">
+                <h3 class="font-bengali text-lg font-bold text-primary mb-3">
+                  <i class="fas fa-star text-accent mr-2"></i>প্রধান সিদ্ধান্ত
+                </h3>
+                <ul class="space-y-2 text-sm text-secondary">
+                  <li class="flex items-start">
+                    <i class="fas fa-check text-green-600 mr-2 mt-1"></i>
+                    কুরআন নিজেই দাবি করেছে যে এটি পূর্ণাঙ্গ ও যথেষ্ট
+                  </li>
+                  <li class="flex items-start">
+                    <i class="fas fa-times text-red-600 mr-2 mt-1"></i>
+                    হাদীস সংকলনের ঐতিহাসিক সমস্যা
+                  </li>
+                  <li class="flex items-start">
+                    <i class="fas fa-balance-scale text-blue-600 mr-2 mt-1"></i>
+                    হাদীসের সনদ ও মতন সংক্রান্ত দুর্বলতা
+                  </li>
+                </ul>
+              </div>
+
+              <div class="bg-gradient-to-br from-blue-50 to-amber-50 rounded-xl p-6 shadow-lg">
+                <h3 class="font-bengali text-lg font-bold text-primary mb-3">
+                  <i class="fas fa-quote-left text-accent mr-2"></i>কুরআনিক বাণী
+                </h3>
+                <blockquote class="arabic-text text-xl text-primary font-bold mb-2">
+                  أَوَلَمْ يَكْفِهِمْ أَنَّا أَنزَلْنَا عَلَيْكَ الْكِتَابَ يُتْلَىٰ عَلَيْهِمْ
+                </blockquote>
+                <p class="text-sm text-secondary">
+                  &#34;তাদের জন্য কি এটাই যথেষ্ট নয় যে, আমি আপনার প্রতি কিতাব নাযিল করেছি?&#34; (সূরা আল-আনকাবুত: ৫১)
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Introduction Section -->
+      <section id="introduction" class="py-16 bg-base-100">
+        <div class="container mx-auto px-6">
+          <div class="max-w-4xl mx-auto">
+            <h2 class="font-bengali text-3xl font-bold text-primary mb-8">ভূমিকা: কুরআনের পূর্ণতা ও হাদীসের অবস্থান নিয়ে প্রশ্ন</h2>
+
+            <div class="prose prose-lg max-w-none">
+              <p class="text-secondary leading-relaxed mb-6">
+                এই গবেষণাপত্রের মূল উদ্দেশ্য হলো <strong class="text-primary">কুরআন মজিদের স্বয়ংসম্পূর্ণতা ও পূর্ণতার দাবিকে বিশদভাবে পরীক্ষা করে দেখা</strong> এবং একই সাথে <strong class="text-primary">হাদীস নামে পরিচিত রাসূলুল্লাহ (সা.)-এর বাণী ও কর্ম সম্পর্কিত বর্ণনাগুলোর ঐতিহাসিক প্রেক্ষাপট, সনদ ও মতনের দুর্বলতা, এবং কুরআনের সাথে তার সম্পর্কের প্রকৃতি নিয়ে গভীরভাবে অনুসন্ধান করা</strong>।
+              </p>
+
+              <div class="highlight-box p-6 rounded-lg mb-8">
+                <h3 class="font-bengali text-xl font-bold text-primary mb-4">
+                  <i class="fas fa-bullseye text-accent mr-2"></i>WARNING:
+                </h3>
+                </p>
+                <p class="text-secondary">
+                এ গবেষণায় বৈজ্ঞানিক পদ্ধতি, যৌক্তিক বিশ্লেষণ, ঐতিহাসিক প্রমাণ, এবং অন্যান্য সকল প্রাসঙ্গিক দৃষ্টিকোণ থেকে হাদীসের ভ্রান্তি ও অগ্রহণযোগ্যতা তুলে ধরা হবে।
+                </p>
+              </div>
+
+              <p class="text-secondary leading-relaxed">
+                 এই গবেষণার মাধ্যমে <strong class="text-primary">কুরআনের পূর্ণাঙ্গতা ও হাদীসের অপ্রয়োজনীয়তা সম্পর্কে একটি সুস্পষ্ট ও প্রামাণিক দৃষ্টিভঙ্গি প্রতিষ্ঠা করা সম্ভব হবে</strong> বলে আশা করা যায়।
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="section-divider"></div>
+
+      <!-- Quran's Completeness Section -->
+      <section id="quran-completeness" class="py-16 bg-base-200">
+        <div class="container mx-auto px-6">
+          <div class="max-w-4xl mx-auto">
+            <h2 class="font-bengali text-3xl font-bold text-primary mb-8">কুরআনের দৃষ্টিতে কুরআনের পূর্ণতা ও স্বয়ংসম্পূর্ণতা</h2>
+
+            <p class="text-secondary text-lg mb-8">কুরআন মজিদ নিজেই বারবার তার পূর্ণতা, স্পষ্টতা, এবং মানবজাতির জন্য এর যথেষ্টতার কথা ঘোষণা করেছে।</p>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+              <div class="bg-white rounded-xl p-6 shadow-lg">
+                <div class="flex items-center mb-4">
+                  <i class="fas fa-book-open text-accent text-2xl mr-3"></i>
+                  <h3 class="font-bengali text-xl font-bold text-primary">সকল কিছুর ব্যাখ্যা</h3>
+                </div>
+                <blockquote class="arabic-text text-lg text-primary font-bold mb-3">
+                  تَفْصِيلًا لِّكُلِّ شَيْءٍ
+                </blockquote>
+                <p class="text-secondary text-sm mb-3">
+                  &#34;আর আমি আপনার প্রতি কিতাব নাযিল করেছি সকল কিছুর সুস্পষ্ট ব্যাখ্যাস্বরূপ&#34; (সূরা আন-নাহল: ৮৯)
+                  <a href="#" class="citation-link ml-2">[1]</a>
+                </p>
+                <p class="text-secondary text-sm">
+                  কুরআন শুধুমাত্র আধ্যাত্মিক নির্দেশনা নয়, বরং &#34;সকল কিছুর&#34; (তাফসীলান লি কুল্লি শাইয়িন) ব্যাখ্যা।
+                </p>
+              </div>
+
+              <div class="bg-white rounded-xl p-6 shadow-lg">
+                <div class="flex items-center mb-4">
+                  <i class="fas fa-clipboard-check text-accent text-2xl mr-3"></i>
+                  <h3 class="font-bengali text-xl font-bold text-primary">বিস্তারিত ও পরিপূর্ণ</h3>
+                </div>
+                <blockquote class="arabic-text text-lg text-primary font-bold mb-3">
+                  مُفَصَّلًا
+                </blockquote>
+                <p class="text-secondary text-sm mb-3">
+                  &#34;তিনিই তোমাদের প্রতি এই কিতাব নাযিল করেছেন, যা সুস্পষ্টভাবে বিবৃত&#34; (সূরা আল-আন&#39;আম: ১১৪)
+                  <a href="#" class="citation-link ml-2">[2]</a>
+                </p>
+                <p class="text-secondary text-sm">
+                  &#34;বিস্তারিতভাবে বর্ণনা করা হয়েছে&#34; - কুরআন নিজেকে একটি পরিপূর্ণ ও বিস্তারিত গ্রন্থ হিসেবে উপস্থাপন করে।
+                </p>
+              </div>
+
+              <div class="bg-white rounded-xl p-6 shadow-lg">
+                <div class="flex items-center mb-4">
+                  <i class="fas fa-lightbulb text-accent text-2xl mr-3"></i>
+                  <h3 class="font-bengali text-xl font-bold text-primary">সহজবোধ্য</h3>
+                </div>
+                <blockquote class="arabic-text text-lg text-primary font-bold mb-3">
+                  وَلَقَدْ يَسَّرْنَا الْقُرْآنَ لِلذِّكْرِ
+                </blockquote>
+                <p class="text-secondary text-sm mb-3">
+                  &#34;নিশ্চয়ই আমি এ কুরআনকে সহজ করে দিয়েছি উপদেশ গ্রহণের জন্য&#34; (সূরা আল-কামার: ১৭, ২২, ৩২, ৪০)
+                  <a href="#" class="citation-link ml-2">[3]</a>
+                </p>
+                <p class="text-secondary text-sm">
+                  কুরআনের সহজবোধ্যতার উপর বিশেষ গুরুত্ব আরোপ করে বারবার এই বক্তব্য পুনরাবৃত্তি করা হয়েছে।
+                </p>
+              </div>
+
+              <div class="bg-white rounded-xl p-6 shadow-lg">
+                <div class="flex items-center mb-4">
+                  <i class="fas fa-compass text-accent text-2xl mr-3"></i>
+                  <h3 class="font-bengali text-xl font-bold text-primary">হিদায়াতের উৎস</h3>
+                </div>
+                <blockquote class="arabic-text text-lg text-primary font-bold mb-3">
+                  هُدًى لِّلْمُتَّقِينَ
+                </blockquote>
+                <p class="text-secondary text-sm mb-3">
+                  &#34;এটি সেই কিতাব, যাতে কোন সন্দেহ নেই; মুত্তাকীদের জন্য হিদায়াত&#34; (সূরা আল-বাকারা: ২)
+                  <a href="#" class="citation-link ml-2">[4]</a>
+                </p>
+                <p class="text-secondary text-sm">
+                  &#34;সর্বাধিক সরল&#34; পথের দিশা - কুরআন বারবার দাবি করেছে যে এটি পরিপূর্ণ হিদায়াত।
+                </p>
+              </div>
+            </div>
+
+            <div class="highlight-box p-8 rounded-xl">
+              <h3 class="font-bengali text-2xl font-bold text-primary mb-4">
+                <i class="fas fa-crown text-accent mr-3"></i>কুরআনের সর্বোচ্চ দাবি: এটি মুমিনদের জন্য যথেষ্ট
+              </h3>
+              <blockquote class="arabic-text text-2xl text-primary font-bold mb-4 text-center">
+                أَوَلَمْ يَكْفِهِمْ أَنَّا أَنزَلْنَا عَلَيْكَ الْكِتَابَ يُتْلَىٰ عَلَيْهِمْ
+              </blockquote>
+              <p class="text-secondary text-lg mb-4 text-center">
+                &#34;তাদের জন্য কি এটাই যথেষ্ট নয় যে, আমি আপনার প্রতি কিতাব নাযিল করেছি, যা তাদের নিকট পাঠ করা হয়?&#34; (সূরা আল-আনকাবুত: ৫১)
+                <a href="#" class="citation-link ml-2">[5]</a>
+              </p>
+              <p class="text-secondary">
+                এই আয়াতটি অত্যন্ত স্পষ্টভাবে ঘোষণা করছে যে <strong class="text-primary">কুরআনই মুমিনদের জন্য যথেষ্ট</strong> (আওয়া লাম ইয়াকফি বিহিম)। এই দাবি হাদীসের প্রয়োজনীয়তার ধারণাকে সরাসরি চ্যালেঞ্জ করে।
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="section-divider"></div>
+
+      <!-- Hadith History Section -->
+      <section id="hadith-history" class="py-16 bg-base-100">
+        <div class="container mx-auto px-6">
+          <div class="max-w-4xl mx-auto">
+            <h2 class="font-bengali text-3xl font-bold text-primary mb-8">হাদীস সংকলনের ঐতিহাসিক প্রেক্ষাপট ও সমস্যা</h2>
+
+            <div class="mb-8">
+              <img src="https://kimi-web-img.moonshot.cn/img/asset.kalerkantho.com/21075d0ba2c98d604972363bf227c4a8a153a4a8.jpg" alt="প্রাচীন ইসলামিক পাণ্ডুলিপি" class="w-full h-64 object-cover rounded-xl shadow-lg mb-6" size="medium" aspect="wide" color="brown" style="photo" query="প্রাচীন ইসলামিক পাণ্ডুলিপি" referrerpolicy="no-referrer" data-modified="1" data-score="11598.00"/>
+            </div>
+
+            <p class="text-secondary text-lg mb-8">হাদীস সংকলনের ইতিহাস জটিল ও সমস্যাযুক্ত, যা হাদীসের নির্ভরযোগ্যতা নিয়ে গুরুতর প্রশ্ন তোলে।</p>
+
+            <div class="space-y-8">
+              <div class="bg-red-50 border-l-4 border-red-500 p-6 rounded-r-xl">
+                <h3 class="font-bengali text-xl font-bold text-red-800 mb-4">
+                  <i class="fas fa-clock text-red-600 mr-2"></i>সময়গত ব্যবধান
+                </h3>
+                <p class="text-secondary mb-4">
+                  হাদীস সংকলনের কাজ রাসূলুল্লাহ (সা.)-এর ওফাতের বহু বছর পর শুরু হয়েছিল। প্রথম দিকের হাদীস গ্রন্থগুলো, যেমন ইমাম বুখারীর সহীহ বুখারী, রচিত হয়েছিল রাসূলুল্লাহ (সা.)-এর ওফাতের প্রায় <strong class="text-red-700">দুইশত বছর পর</strong>।
+                </p>
+                <p class="text-secondary">
+                  এই দীর্ঘ সময়গত ব্যবধানে হাদীসের স্মৃতিভিত্তিক প্রচলন, বর্ণনাকারীদের মৃত্যু, ঘটনাবলির বিকৃতি এবং নতুন বর্ণনার সংযোজন হওয়া স্বাভাবিক ছিল।
+                </p>
+              </div>
+
+              <div class="bg-orange-50 border-l-4 border-orange-500 p-6 rounded-r-xl">
+                <h3 class="font-bengali text-xl font-bold text-orange-800 mb-4">
+                  <i class="fas fa-chess text-orange-600 mr-2"></i>রাজনৈতিক প্রভাব
+                </h3>
+                <p class="text-secondary mb-4">
+                  প্রারম্ভিক ইসলামী ইতিহাসে রাজনৈতিক অস্থিরতা ও বিভিন্ন গোষ্ঠীর মধ্যে ক্ষমতার দ্বন্দ্ব হাদীস সংকলনে ব্যাপক প্রভাব ফেলেছে। বিভিন্ন শাসক ও রাজনৈতিক গোষ্ঠী তাদের অবস্থানকে শক্তিশালী করার জন্য নিজেদের পক্ষে বা বিরোধী পক্ষের বিপক্ষে হাদীস রচনা বা প্রচারে উৎসাহিত করেছেন।
+                </p>
+                <p class="text-secondary">
+                  এই রাজনৈতিক প্রভাবে অনেক জাল বা দুর্বল হাদীস সহীহ হাদীসের মর্যাদা পেয়েছে এবং অনেক সহীহ হাদীস দমন বা উপেক্ষিত হয়েছে।
+                </p>
+              </div>
+
+              <div class="bg-blue-50 border-l-4 border-blue-500 p-6 rounded-r-xl">
+                <h3 class="font-bengali text-xl font-bold text-blue-800 mb-4">
+                  <i class="fas fa-users text-blue-600 mr-2"></i>ফিরকাগত বিভেদ
+                </h3>
+                <p class="text-secondary mb-4">
+                  ইসলামের বিভিন্ন ফিরকা ও মতাদর্শ (যেমন সুন্নি, শিয়া, খারিজি ইত্যাদি) তাদের নিজস্ব বিশ্বাস ও চিন্তাধারাকে সমর্থন করার জন্য আলাদা আলাদা হাদীস সংকলন তৈরি করেছে। এই সংকলনগুলোতে প্রায়শই এমন হাদীস স্থান পেয়েছে যা কেবল সেই বিশেষ ফিরকার মতবাদকেই শক্তিশালী করে।
+                </p>
+                <p class="text-secondary">
+                  একই বিষয়ে বিভিন্ন ফিরকার হাদীস গ্রন্থে পরস্পরবিরোধী হাদীস পাওয়া যায়, যা প্রমাণ করে যে হাদীসের একটি বড় অংশ ফিরকাগত পক্ষপাত দ্বারা প্রভাবিত।
+                </p>
+              </div>
+
+              <div class="bg-purple-50 border-l-4 border-purple-500 p-6 rounded-r-xl">
+                <h3 class="font-bengali text-xl font-bold text-purple-800 mb-4">
+                  <i class="fas fa-balance-scale text-purple-600 mr-2"></i>বাছাইয়ের মানদণ্ডের সমস্যা
+                </h3>
+                <p class="text-secondary mb-4">
+                  হাদীস বাছাইয়ের জন্য যে মানদণ্ড (যেমন রিজাল শাস্ত্র, সনদ ও মতনের বিশ্লেষণ) ব্যবহার করা হয়, তা নিজেই বিতর্কিত ও অসম্পূর্ণ। হাদীস বাছাইকারী ইমামগণ মানব ছিলেন এবং তাদের বাছাই প্রক্রিয়ায় ব্যক্তিগত বিচার-বিবেচনা, তাদের সময়ের প্রচলিত বিশ্বাস ও জ্ঞানের সীমাবদ্ধতা প্রভাব ফেলেছে।
+                </p>
+                <p class="text-secondary">
+                  একই হাদীসকে এক ইমাম সহীহ বলেছেন, অন্যজন দুর্বল বা জাল বলেছেন। এই মানদণ্ডগুলোর আপেক্ষিকতা ও মতপার্থক্যই হাদীসের নিরঙ্কুশ নির্ভরযোগ্যতার দাবিকে খর্ব করে।
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="section-divider"></div>
+
+      <!-- Sanad Issues Section -->
+      <section id="sanad-issues" class="py-16 bg-base-200">
+        <div class="container mx-auto px-6">
+          <div class="max-w-4xl mx-auto">
+            <h2 class="font-bengali text-3xl font-bold text-primary mb-8">হাদীসের সনদ (বর্ণনাসূত্র) সংক্রান্ত সমস্যা</h2>
+
+            <p class="text-secondary text-lg mb-8">হাদীসের নির্ভরযোগ্যতার মূল ভিত্তি হিসেবে যে সনদ বা বর্ণনাসূত্র পদ্ধতিকে উপস্থাপন করা হয়, তা নিজেই নানাবিধ সমস্যা ও সীমাবদ্ধতায় জর্জরিত।</p>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+              <div class="bg-white rounded-xl p-6 shadow-lg">
+                <h3 class="font-bengali text-xl font-bold text-primary mb-4">
+                  <i class="fas fa-link text-red-600 mr-2"></i>সনদে ছেদ বা বিচ্ছিন্নতা
+                </h3>
+                <p class="text-secondary mb-4">
+                  হাদীসের সনদে ছেদ (ইনকিতা) বা বিচ্ছিন্নতা একটি সাধারণ সমস্যা। কোনো কোনো ক্ষেত্রে একজন বর্ণনাকারী সরাসরি রাসূলুল্লাহ (সা.) থেকে হাদীস শুনেছেন বলে দাবি করেন, অথচ ঐতিহাসিকভাবে প্রমাণিত যে তিনি রাসূলুল্লাহ (সা.)-কে দেখেননি বা তার সাক্ষাৎ পাননি।
+                </p>
+                <div class="bg-red-50 p-4 rounded-lg">
+                  <p class="text-red-800 text-sm font-medium">
+                    <i class="fas fa-exclamation-triangle mr-2"></i>
+                    সনদে ছেদ থাকলে হাদীসের নির্ভরযোগ্যতা মারাত্মকভাবে ক্ষুণ্ণ হয়
+                  </p>
+                </div>
+              </div>
+
+              <div class="bg-white rounded-xl p-6 shadow-lg">
+                <h3 class="font-bengali text-xl font-bold text-primary mb-4">
+                  <i class="fas fa-user-secret text-orange-600 mr-2"></i>গোপন শত্রুর সম্ভাবনা
+                </h3>
+                <p class="text-secondary mb-4">
+                  হাদীস বর্ণনাকারীদের মধ্যে গোপন শত্রু বা মুনাফিকের উপস্থিতির সম্ভাবনা উড়িয়ে দেওয়া যায় না। কুরআনেই মুনাফিকদের অস্তিত্ব ও তাদের চরিত্র সম্পর্কে সতর্ক করা হয়েছে। এমন ব্যক্তিরা ইচ্ছাকৃতভাবে ভুল হাদীস তৈরি করে বা প্রচার করে ইসলামের ক্ষতি সাধন করতে পারে।
+                </p>
+                <div class="bg-orange-50 p-4 rounded-lg">
+                  <p class="text-orange-800 text-sm font-medium">
+                    <i class="fas fa-eye-slash mr-2"></i>
+                    গোপন মুনাফিকের হাদীস সনদ পদ্ধতিতে শনাক্ত করা প্রায় অসম্ভব
+                  </p>
+                </div>
+              </div>
+
+              <div class="bg-white rounded-xl p-6 shadow-lg">
+                <h3 class="font-bengali text-xl font-bold text-primary mb-4">
+                  <i class="fas fa-brain text-blue-600 mr-2"></i>বর্ণনাকারীদের স্মৃতিশক্তি
+                </h3>
+                <p class="text-secondary mb-4">
+                  সনদ পদ্ধতির সাফল্য বহুলাংশে নির্ভর করে বর্ণনাকারীদের (রাবী) স্মৃতিশক্তি, নৈতিক চরিত্র ও সত্যনিষ্ঠার উপর। কিন্তু এমনকি একজন সাধারণভাবে নির্ভরযোগ্য বর্ণনাকারীও ভুলে যেতে পারেন, ভুল বর্ণনা দিতে পারেন, বা ইচ্ছাকৃতভাবে না হলেও ঘটনাকে বিকৃত করে বর্ণনা করতে পারেন।
+                </p>
+                <div class="bg-blue-50 p-4 rounded-lg">
+                  <p class="text-blue-800 text-sm font-medium">
+                    <i class="fas fa-question-circle mr-2"></i>
+                    বর্ণনাকারীদের স্মৃতিশক্তি সম্পর্কে নিশ্চিত হওয়ার কোনো বৈজ্ঞানিক পদ্ধতি নেই
+                  </p>
+                </div>
+              </div>
+
+              <div class="bg-white rounded-xl p-6 shadow-lg">
+                <h3 class="font-bengali text-xl font-bold text-primary mb-4">
+                  <i class="fas fa-filter text-purple-600 mr-2"></i>সনদ বাছাইয়ের সীমাবদ্ধতা
+                </h3>
+                <p class="text-secondary mb-4">
+                  সনদ শুধুমাত্র বর্ণনাকারীর পরিচয় ও বৈশিষ্ট্য যাচাই করে, হাদীসের বিষয়বস্তুর (মতন) সত্যতা বা যৌক্তিকতা যাচাই করে না। অর্থাৎ, একটি হাদীসের সনদ &#34;সহীহ&#34; হলেও তার মতন ভুল বা জাল হতে পারে।
+                </p>
+                <div class="bg-purple-50 p-4 rounded-lg">
+                  <p class="text-purple-800 text-sm font-medium">
+                    <i class="fas fa-balance-scale mr-2"></i>
+                    সনদ পদ্ধতি একটি অসম্পূর্ণ ও আপেক্ষিক মানদণ্ড
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="section-divider"></div>
+
+      <!-- Matn Issues Section -->
+      <section id="matn-issues" class="py-16 bg-base-100">
+        <div class="container mx-auto px-6">
+          <div class="max-w-4xl mx-auto">
+            <h2 class="font-bengali text-3xl font-bold text-primary mb-8">হাদীসের মতন (বিষয়বস্তু) সংক্রান্ত সমস্যা</h2>
+
+            <p class="text-secondary text-lg mb-8">হাদীসের মতন বা বিষয়বস্তু নিয়ে ব্যাপক সমস্যা ও বিতর্ক বিদ্যমান। অনেক হাদীসের বিষয়বস্তু এমন যা কুরআন, বিজ্ঞান, যুক্তি, নৈতিকতা ও ঐতিহাসিক সত্যের সাথে সাংঘর্ষিক।</p>
+
+            <div class="space-y-8">
+              <div class="bg-gradient-to-r from-red-50 to-pink-50 border border-red-200 rounded-xl p-6">
+                <h3 class="font-bengali text-xl font-bold text-red-800 mb-4">
+                  <i class="fas fa-book-quran text-red-600 mr-2"></i>কুরআনের সাথে সাংঘর্ষিকতা
+                </h3>
+                <p class="text-secondary mb-4">
+                  অনেক হাদীসের বিষয়বস্তু সরাসরি কুরআনের শিক্ষার সাথে সাংঘর্ষিক। উদাহরণস্বরূপ, কুরআনে নারীর উত্তরাধিকার সুনির্দিষ্টভাবে বর্ণিত হয়েছে, কিন্তু কিছু হাদীসে এমন বর্ণনা রয়েছে যা কুরআনের বণ্টন পদ্ধতির সাথে খেলাফ করে।
+                </p>
+                <div class="bg-white p-4 rounded-lg">
+                  <p class="text-sm text-secondary">
+                    <strong>উদাহরণ:</strong> কুরআনে আল্লাহর একত্ব ও অদৃশ্য জ্ঞানের উপর জোর দেওয়া হয়েছে, অথচ কিছু হাদীসে আল্লাহর শারীরিক বৈশিষ্ট্য বা তার দৈনন্দিন কার্যকলাপের এমন বর্ণনা রয়েছে যা কুরআনের শিক্ষার পরিপন্থী।
+                  </p>
+                </div>
+              </div>
+
+              <div class="bg-gradient-to-r from-blue-50 to-cyan-50 border border-blue-200 rounded-xl p-6">
+                <h3 class="font-bengali text-xl font-bold text-blue-800 mb-4">
+                  <i class="fas fa-flask text-blue-600 mr-2"></i>বিজ্ঞান ও যুক্তির সাথে সাংঘর্ষিকতা
+                </h3>
+                <p class="text-secondary mb-4">
+                  অনেক হাদীসের বিষয়বস্তু প্রতিষ্ঠিত বৈজ্ঞানিক সত্য ও প্রাথমিক যুক্তির সাথেও সাংঘর্ষিক। কিছু হাদীসে পৃথিবীকে সমতল বলা হয়েছে, সূর্য অস্ত যাওয়ার পর সিজদা করে এমন বর্ণনা রয়েছে।
+                </p>
+                <div class="bg-white p-4 rounded-lg">
+                  <p class="text-sm text-secondary">
+                    <strong>সমস্যাজনক বর্ণনা:</strong> &#34;মাছি ডানায় রোগ ও অপর ডানায় তার প্রতিষেধক রাখে&#34; - এই ধরনের বর্ণনাগুলো আধুনিক বিজ্ঞানের সাথে সাংঘর্ষিক এবং সাধারণ যুক্তিতেও গ্রহণযোগ্য নয়।
+                  </p>
+                </div>
+              </div>
+
+              <div class="bg-gradient-to-r from-green-50 to-emerald-50 border border-green-200 rounded-xl p-6">
+                <h3 class="font-bengali text-xl font-bold text-green-800 mb-4">
+                  <i class="fas fa-heart text-green-600 mr-2"></i>নৈতিকতার সাথে সাংঘর্ষিকতা
+                </h3>
+                <p class="text-secondary mb-4">
+                  কিছু হাদীসের বিষয়বস্তু সার্বজনীন নৈতিকতা ও মানবিক মূল্যবোধের সাথে সাংঘর্ষিক। উদাহরণস্বরূপ, কিছু হাদীসে দাসপ্রথাকে স্বীকৃতি দেওয়া হয়েছে, নারীদের অধিকার খর্ব করা হয়েছে।
+                </p>
+                <div class="bg-white p-4 rounded-lg">
+                  <p class="text-sm text-secondary">
+                    <strong>নৈতিক দ্বন্দ্ব:</strong> এই ধরনের হাদীসগুলো কুরআনের ন্যায়, ইনসাফ ও রহমতের শিক্ষার সাথে সাংঘর্ষিক। কুরআন ন্যায়বিচার, দয়া ও মানবিক মর্যাদার উপর জোর দেয়।
+                  </p>
+                </div>
+              </div>
+
+              <div class="bg-gradient-to-r from-purple-50 to-violet-50 border border-purple-200 rounded-xl p-6">
+                <h3 class="font-bengali text-xl font-bold text-purple-800 mb-4">
+                  <i class="fas fa-hourglass-half text-purple-600 mr-2"></i>ঐতিহাসিক সত্যের সাথে সাংঘর্ষিকতা
+                </h3>
+                <p class="text-secondary mb-4">
+                  অনেক হাদীসের বিষয়বস্তু প্রতিষ্ঠিত ঐতিহাসিক সত্য ও প্রামাণ্য তথ্যের সাথে সাংঘর্ষিক। কিছু হাদীসে পূর্ববর্তী নবী-রাসূলদের জীবনী বা ঐতিহাসিক ঘটনাবলি সম্পর্কে এমন বর্ণনা রয়েছে যা ঐতিহাসিক গবেষণা দ্বারা সমর্থিত নয়।
+                </p>
+                <div class="bg-white p-4 rounded-lg">
+                  <p class="text-sm text-secondary">
+                    <strong>ইসরাইলিয়াতের প্রভাব:</strong> এই ধরনের হাদীসগুলো প্রায়শই ইসরাইলিয়াত (ইহুদি ও খ্রিস্টান ধর্মীয় কাহিনী) দ্বারা প্রভাবিত বলে মনে করা হয়।
+                  </p>
+                </div>
+              </div>
+
+              <div class="bg-gradient-to-r from-orange-50 to-amber-50 border border-orange-200 rounded-xl p-6">
+                <h3 class="font-bengali text-xl font-bold text-orange-800 mb-4">
+                  <i class="fas fa-exclamation-triangle text-orange-600 mr-2"></i>পরস্পরবিরোধী হাদীসের উপস্থিতি
+                </h3>
+                <p class="text-secondary mb-4">
+                  একই বিষয়ে বিভিন্ন হাদীস গ্রন্থে বা একই গ্রন্থের ভিন্ন স্থানে পরস্পরবিরোধী হাদীস পাওয়া যায়। উদাহরণস্বরূপ, নামাজের রাকাত সংখ্যা, রোজার নিয়ম, বা উত্তরাধিকার সংক্রান্ত বিষয়েও পরস্পরবিরোধী হাদীস রয়েছে।
+                </p>
+                <div class="bg-white p-4 rounded-lg">
+                  <p class="text-sm text-secondary">
+                    <strong>যুক্তিগত সমস্যা:</strong> যদি হাদীসগুলো রাসূলুল্লাহ (সা.)-এর প্রকৃত বাণী হতো, তাহলে এত বেশি পরস্পরবিরোধিতা থাকার কথা নয়। এই বিরোধিতা প্রমাণ করে যে, হাদীসের একটি বড় অংশ পরবর্তীকালে সংযোজিত বা বিকৃত হয়েছে।
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="section-divider"></div>
+
+      <!-- Criticism Section -->
+      <section id="criticism" class="py-16 bg-base-200">
+        <div class="container mx-auto px-6">
+          <div class="max-w-4xl mx-auto">
+            <h2 class="font-bengali text-3xl font-bold text-primary mb-8">হাদীসভিত্তিক কিছু বিধানের সমালোচনা ও কুরআনের আলোকে তার বিশ্লেষণ</h2>
+
+            <p class="text-secondary text-lg mb-8">হাদীসের ভিত্তিতে প্রচলিত অনেক বিধান কুরআনের শিক্ষা, ন্যায়বিচার ও মানবিক মূল্যবোধের সাথে সাংঘর্ষিক।</p>
+
+            <div class="space-y-8">
+              <div class="bg-white rounded-xl p-8 shadow-lg border-l-4 border-red-500">
+                <h3 class="font-bengali text-xl font-bold text-red-800 mb-4">
+                  <i class="fas fa-gavel text-red-600 mr-2"></i>শাস্তি সংক্রান্ত হাদীস (যেমন: রজম, মৃত্যুদণ্ড)
+                </h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                  <div>
+                    <h4 class="font-bengali font-bold text-secondary mb-2">হাদীসের দাবি:</h4>
+                    <p class="text-secondary text-sm mb-4">
+                      কিছু হাদীসে ব্যভিচারের শাস্তি হিসেবে রজম (পাথর মেরে হত্যা) এবং ধর্মত্যাগের শাস্তি হিসেবে মৃত্যুদণ্ডের বিধান রয়েছে।
+                    </p>
+                  </div>
+                  <div>
+                    <h4 class="font-bengali font-bold text-secondary mb-2">কুরআনিক বাস্তবতা:</h4>
+                    <p class="text-secondary text-sm mb-4">
+                      কুরআনে কোথাও রজমের শাস্তির উল্লেখ নেই; ব্যভিচারের শাস্তি হিসেবে কুরআনে একশটি বেত্রাঘাতের কথা বলা হয়েছে (সূরা আন-নূর, ২)। ধর্মত্যাগের শাস্তি সম্পর্কেও কুরআনে পার্থিব শাস্তির কোনো স্পষ্ট বিধান নেই।
+                    </p>
+                  </div>
+                </div>
+                <div class="bg-red-50 p-4 rounded-lg">
+                  <p class="text-red-800 text-sm">
+                    <i class="fas fa-exclamation-circle mr-2"></i>
+                    এই হাদীসভিত্তিক শাস্তিগুলো কুরআনের রহমত ও ন্যায়ের শিক্ষার সাথে সাংঘর্ষিক। কুরআনের বিধানই সর্বোচ্চ এবং এর বাইরে কোনো শাস্তির বিধান দেওয়ার অধিকার কারো নেই।
+                  </p>
+                </div>
+              </div>
+
+              <div class="bg-white rounded-xl p-8 shadow-lg border-l-4 border-blue-500">
+                <h3 class="font-bengali text-xl font-bold text-blue-800 mb-4">
+                  <i class="fas fa-venus text-blue-600 mr-2"></i>নারী অধিকার ও মর্যাদা সংক্রান্ত হাদীস
+                </h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                  <div>
+                    <h4 class="font-bengali font-bold text-secondary mb-2">সমস্যাজনক বর্ণনা:</h4>
+                    <p class="text-secondary text-sm mb-4">
+                      অনেক হাদীস নারীদেরকে বুদ্ধিবৃত্তিক ও ধর্মীয়ভাবে ঘাটতিযুক্ত বলা হয়েছে, বা স্বামীর অবাধ্য হলে মারধরের অনুমতি দেওয়া হয়েছে।
+                    </p>
+                  </div>
+                  <div>
+                    <h4 class="font-bengali font-bold text-secondary mb-2">কুরআনিক দৃষ্টিভঙ্গি:</h4>
+                    <p class="text-secondary text-sm mb-4">
+                      কুরআন নারী-পুরুষ উভয়কে সমান মর্যাদা দিয়েছে এবং নারীর অধিকার সুরক্ষার জন্য স্পষ্ট নির্দেশনা দিয়েছে। কুরআনে নারীর শিক্ষা, সম্পত্তির অধিকার, বিবাহ ও তালাকের অধিকার স্বীকৃত।
+                    </p>
+                  </div>
+                </div>
+                <div class="bg-blue-50 p-4 rounded-lg">
+                  <p class="text-blue-800 text-sm">
+                    <i class="fas fa-balance-scale mr-2"></i>
+                    নারীর অধিকার ও মর্যাদা সংক্রান্ত হাদীসের একটি বড় অংশ কুরআনের শিক্ষা ও আধুনিক মানবিক মূল্যবোধের সাথে সাংঘর্ষিক। কুরআনের আলোকে নারীর প্রকৃত মর্যাদা ও অধিকার প্রতিষ্ঠা করা প্রয়োজন।
+                  </p>
+                </div>
+              </div>
+
+              <div class="bg-white rounded-xl p-8 shadow-lg border-l-4 border-green-500">
+                <h3 class="font-bengali text-xl font-bold text-green-800 mb-4">
+                  <i class="fas fa-sword text-green-600 mr-2"></i>জিহাদ ও যুদ্ধ সংক্রান্ত হাদীস
+                </h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                  <div>
+                    <h4 class="font-bengali font-bold text-secondary mb-2">বিতর্কিত বর্ণনা:</h4>
+                    <p class="text-secondary text-sm mb-4">
+                      কিছু হাদীসে অমুসলিমদের বিরুদ্ধে আক্রমণাত্মক যুদ্ধের নির্দেশনা, বন্দীদের হত্যা, বা ধর্মান্তরিত না হলে করদাতা হিসেবে গ্রহণ করার কথা বলা হয়েছে।
+                    </p>
+                  </div>
+                  <div>
+                    <h4 class="font-bengali font-bold text-secondary mb-2">কুরআনিক নীতি:</h4>
+                    <p class="text-secondary text-sm mb-4">
+                      কুরআনে জিহাদের মূল উদ্দেশ্য হলো আত্মরক্ষা, ধর্মীয় স্বাধীনতা রক্ষা এবং অত্যাচারিতদের সাহায্য করা (সূরা আল-বাকারাহ, ১৯০)। কুরআনে জোরপূর্বক ধর্মান্তরের কোনো অনুমতি নেই (সূরা আল-বাকারাহ, ২৫৬)।
+                    </p>
+                  </div>
+                </div>
+                <div class="bg-green-50 p-4 rounded-lg">
+                  <p class="text-green-800 text-sm">
+                    <i class="fas fa-dove mr-2"></i>
+                    হাদীসের অনেক বর্ণনা কুরআনের শান্তি, ন্যায় ও সহিষ্ণুতার শিক্ষার সাথে সাংঘর্ষিক। এই হাদীসগুলোই আজকে ইসলামকে একটি সহিংস ধর্ম হিসেবে উপস্থাপন করতে ব্যবহৃত হচ্ছে।
+                  </p>
+                </div>
+              </div>
+
+              <div class="bg-white rounded-xl p-8 shadow-lg border-l-4 border-purple-500">
+                <h3 class="font-bengali text-xl font-bold text-purple-800 mb-4">
+                  <i class="fas fa-list text-purple-600 mr-2"></i>অন্যান্য বিতর্কিত হাদীস
+                </h3>
+                <div class="space-y-4">
+                  <div class="bg-purple-50 p-4 rounded-lg">
+                    <h4 class="font-bengali font-bold text-purple-800 mb-2">দাসপ্রথা সমর্থন:</h4>
+                    <p class="text-secondary text-sm">
+                      কিছু হাদীসে দাসপ্রথাকে বৈধতা দেওয়া হয়েছে, যা কুরআনের সার্বজনীন স্বাধীনতা ও মর্যাদার শিক্ষার সাথে সাংঘর্ষিক।
+                    </p>
+                  </div>
+                  <div class="bg-purple-50 p-4 rounded-lg">
+                    <h4 class="font-bengali font-bold text-purple-800 mb-2">রাজতন্ত্র সমর্থন:</h4>
+                    <p class="text-secondary text-sm">
+                      কিছু হাদীসে বাদশাহী বা রাজতন্ত্রকে সমর্থন করা হয়েছে, যা কুরআনের ন্যায় ও পরামর্শভিত্তিক শাসনের আদর্শের সাথে সাংঘর্ষিক।
+                    </p>
+                  </div>
+                  <div class="bg-purple-50 p-4 rounded-lg">
+                    <h4 class="font-bengali font-bold text-purple-800 mb-2">অলৌকিক ঘটনার অতিরঞ্জিত বর্ণনা:</h4>
+                    <p class="text-secondary text-sm">
+                      কিছু হাদীসে এমন কিছু অলৌকিক ঘটনার বর্ণনা রয়েছে যা যুক্তি ও বিজ্ঞানের সাথে সাংঘর্ষিক।
+                    </p>
+                  </div>
+                </div>
+                <div class="mt-4 bg-purple-100 p-4 rounded-lg">
+                  <p class="text-purple-800 text-sm font-medium">
+                    <i class="fas fa-lightbulb mr-2"></i>
+                    যখন কোনো হাদীস কুরআনের সার্বজনীনতা, ন্যায় ও প্রজ্ঞার সাথে সাংঘর্ষিক হয়, তখন সেই হাদীসকে পরিত্যাগ করাই বুদ্ধিমানের কাজ। কুরআনই হলো সকল সমস্যার সমাধান ও সকল প্রশ্নের জবাবের একমাত্র নির্ভরযোগ্য উৎস।
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="section-divider"></div>
+
+      <!-- Arguments Section -->
+      <section id="arguments" class="py-16 bg-base-100">
+        <div class="container mx-auto px-6">
+          <div class="max-w-4xl mx-auto">
+            <h2 class="font-bengali text-3xl font-bold text-primary mb-8">হাদীসের প্রয়োজনীয়তা সম্পর্কে হাদীসবাদীদের যুক্তি ও তার জবাব</h2>
+
+            <p class="text-secondary text-lg mb-8">হাদীসবাদীরা হাদীসের প্রয়োজনীয়তা প্রমাণে নানান যুক্তি উপস্থাপন করেন, কিন্তু এই যুক্তিগুলো যৌক্তিক ও কুরআনিক দৃষ্টিকোণ থেকে অগ্রহণযোগ্য।</p>
+
+            <div class="space-y-8">
+              <div class="bg-white rounded-xl p-8 shadow-lg">
+                <div class="flex items-start">
+                  <div class="bg-red-100 p-3 rounded-full mr-4">
+                    <i class="fas fa-question-circle text-red-600 text-xl"></i>
+                  </div>
+                  <div class="flex-1">
+                    <h3 class="font-bengali text-xl font-bold text-primary mb-3">&#34;কুরআন বুঝতে হাদীসের প্রয়োজন&#34;</h3>
+                    <div class="bg-red-50 p-4 rounded-lg mb-4">
+                      <h4 class="font-bengali font-bold text-red-800 mb-2">যুক্তি:</h4>
+                      <p class="text-secondary text-sm">
+                        কুরআন সংক্ষিপ্ত ও মূলনীতিগত, আর হাদীস তা বিস্তারিতভাবে ব্যাখ্যা করে।
+                      </p>
+                    </div>
+                    <div class="bg-green-50 p-4 rounded-lg mb-4">
+                      <h4 class="font-bengali font-bold text-green-800 mb-2">জবাব:</h4>
+                      <p class="text-secondary text-sm mb-2">
+                        এই যুক্তি কুরআনের নিজস্ব দাবির সাথে সাংঘর্ষিক। কুরআন বারবার বলেছে যে এটি <strong>সুস্পষ্ট, বিস্তারিত ও সহজবোধ্য</strong>।
+                      </p>
+                      <blockquote class="arabic-text text-base text-primary font-bold mb-2">
+                        أَوَلَمْ يَكْفِهِمْ أَنَّا أَنزَلْنَا عَلَيْكَ الْكِتَابَ
+                      </blockquote>
+                      <p class="text-secondary text-sm">
+                        &#34;যদি কুরআন নিজেই দাবি করে যে তা সুস্পষ্ট ও বিস্তারিত, তাহলে এর বাইরে অন্য কোনো উৎস থেকে ব্যাখ্যা নেওয়ার প্রয়োজন কী?&#34;
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="bg-white rounded-xl p-8 shadow-lg">
+                <div class="flex items-start">
+                  <div class="bg-orange-100 p-3 rounded-full mr-4">
+                    <i class="fas fa-pray text-orange-600 text-xl"></i>
+                  </div>
+                  <div class="flex-1">
+                    <h3 class="font-bengali text-xl font-bold text-primary mb-3">&#34;হাদীস ছাড়া নামাজ, রোজা, হজ্ব, জাকাত কীভাবে আদায় করব?&#34;</h3>
+                    <div class="bg-orange-50 p-4 rounded-lg mb-4">
+                      <h4 class="font-bengali font-bold text-orange-800 mb-2">প্রশ্ন:</h4>
+                      <p class="text-secondary text-sm">
+                        কুরআনে এই ইবাদতগুলোর বিস্তারিত পদ্ধতি বর্ণিত নেই।
+                      </p>
+                    </div>
+                    <div class="bg-blue-50 p-4 rounded-lg mb-4">
+                      <h4 class="font-bengali font-bold text-blue-800 mb-2">উত্তর:</h4>
+                      <p class="text-secondary text-sm mb-2">
+                        এটি একটি ভ্রান্ত ধারণা। <strong>কুরআনে নামাজ, রোজা, হজ্ব ও জাকাতের মূলনীতি, উদ্দেশ্য ও অনেক বিস্তারিত দিকই বর্ণিত হয়েছে</strong>।
+                      </p>
+                      <ul class="text-secondary text-sm space-y-1 ml-4">
+                        <li>• নামাজের সময়, রুকু-সিজদা, কিবলা, পরিষ্কার-পরিচ্ছন্নতা</li>
+                        <li>• রোজার সময়, নিষিদ্ধ কাজ</li>
+                        <li>• হজ্বের মাস, তাওয়াফ, সাঈ</li>
+                        <li>• জাকাতের হকদার ইত্যাদি</li>
+                      </ul>
+                    </div>
+                    <div class="bg-blue-100 p-4 rounded-lg">
+                      <p class="text-blue-800 text-sm">
+                        <i class="fas fa-info-circle mr-2"></i>
+                        যে সকল বিস্তারিত বিষয় কুরআনে সরাসরি বর্ণিত নেই, সেগুলো রাসূলুল্লাহ (সা.)-এর মাধ্যমে প্রাকটিক্যালি প্রতিষ্ঠিত একটি সাধারণ রীতি (সুন্নাহ) হিসেবে চালু ছিল, যা কুরআনের শিক্ষার আলোকে এবং স্থান-কাল-পাত্রের প্রয়োজন অনুসারে নমনীয়।
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="bg-white rounded-xl p-8 shadow-lg">
+                <div class="flex items-start">
+                  <div class="bg-purple-100 p-3 rounded-full mr-4">
+                    <i class="fas fa-user-check text-purple-600 text-xl"></i>
+                  </div>
+                  <div class="flex-1">
+                    <h3 class="font-bengali text-xl font-bold text-primary mb-3">&#34;নবী (সা.) এর আনুগত্য মানেই হাদীস মানা&#34;</h3>
+                    <div class="bg-purple-50 p-4 rounded-lg mb-4">
+                      <h4 class="font-bengali font-bold text-purple-800 mb-2">যুক্তি:</h4>
+                      <p class="text-secondary text-sm">
+                        কুরআনে নবীর আনুগত্যের নির্দেশ দেওয়া হয়েছে, তাই হাদীস মানতে হবে।
+                      </p>
+                    </div>
+                    <div class="bg-indigo-50 p-4 rounded-lg mb-4">
+                      <h4 class="font-bengali font-bold text-indigo-800 mb-2">বিশ্লেষণ:</h4>
+                      <p class="text-secondary text-sm mb-2">
+                        নবীর আনুগত্যের অর্থ হলো কুরআনের আনুগত্য। রাসূলুল্লাহ (সা.) নিজেই কুরআন অনুযায়ী জীবনযাপন করতেন এবং কুরআনের বিধানই মানুষকে শিখাতেন।
+                      </p>
+                      <blockquote class="arabic-text text-base text-primary font-bold mb-2">
+                        مَّن يُطِعِ الرَّسُولَ فَقَدْ أَطَاعَ اللَّهَ
+                      </blockquote>
+                      <p class="text-secondary text-sm">
+                        &#34;যে রাসূলের আনুগত্য করল, সে আল্লাহরই আনুগত্য করল&#34; (সূরা আন-নিসা, ৮০)। এই আনুগত্য ছিল কুরআনকেন্দ্রিক।
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="bg-white rounded-xl p-8 shadow-lg">
+                <div class="flex items-start">
+                  <div class="bg-green-100 p-3 rounded-full mr-4">
+                    <i class="fas fa-ban text-green-600 text-xl"></i>
+                  </div>
+                  <div class="flex-1">
+                    <h3 class="font-bengali text-xl font-bold text-primary mb-3">&#34;নবী (সা.) নিজে হাদীস লিখতে ও বলতে নিষেধ করেছেন&#34;</h3>
+                    <div class="bg-green-50 p-4 rounded-lg mb-4">
+                      <h4 class="font-bengali font-bold text-green-800 mb-2">হাদীসের উদ্ধৃতি:</h4>
+                      <p class="text-secondary text-sm mb-2">
+                        সহীহ মুসলিমে একটি হাদীসে এসেছে, রাসূলুল্লাহ (সা.) বলেছেন:
+                      </p>
+                      <blockquote class="arabic-text text-base text-primary font-bold mb-2">
+                        لا تَكْتُبُوا عَنِّي غَيْرَ الْقُرْآنِ
+                      </blockquote>
+                      <p class="text-secondary text-sm">
+                        &#34;আমার থেকে কুরআন ছাড়া কিছু লিখো না...&#34;
+                      </p>
+                    </div>
+                    <div class="bg-yellow-50 p-4 rounded-lg">
+                      <h4 class="font-bengali font-bold text-yellow-800 mb-2">অর্থ:</h4>
+                      <p class="text-secondary text-sm">
+                        <i class="fas fa-lightbulb mr-2"></i>
+                        এই হাদীসগুলোই প্রমাণ করে যে, রাসূলুল্লাহ (সা.) চাননি যে তার কথাগুলো কুরআনের পাশাপাশি আরেকটি স্বতন্ত্র ধর্মীয় উৎস হিসেবে প্রতিষ্ঠিত হোক। এই হাদীসগুলোর সরল অর্থই হলো হাদীস সংকলন ও প্রচারের বিরুদ্ধে রাসূলুল্লাহ (সা.)-এর সতর্কবাণী।
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="section-divider"></div>
+
+      <!-- Harmful Effects Section -->
+      <section id="harmful-effects" class="py-16 bg-base-200">
+        <div class="container mx-auto px-6">
+          <div class="max-w-4xl mx-auto">
+            <h2 class="font-bengali text-3xl font-bold text-primary mb-8">হাদীস মানার ক্ষতিকর দিকসমূহ</h2>
+
+            <p class="text-secondary text-lg mb-8">হাদীসকে ধর্মীয় বিধানের উৎস হিসেবে গ্রহণ করলে এর অনেক ক্ষতিকর দিক রয়েছে, যা ইসলামের মৌলিক শিক্ষা ও মুসলিম উম্মাহর ঐক্য ও অগ্রগতিকে বাধাগ্রস্ত করে।</p>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+              <div class="bg-white rounded-xl p-6 shadow-lg border-t-4 border-red-500">
+                <div class="flex items-center mb-4">
+                  <i class="fas fa-puzzle-piece text-red-600 text-2xl mr-3"></i>
+                  <h3 class="font-bengali text-xl font-bold text-red-800">কুরআনকে অপূর্ণাঙ্গ মনে করা</h3>
+                </div>
+                <p class="text-secondary text-sm mb-4">
+                  হাদীস মানার সবচেয়ে বড় ক্ষতিকর দিক হলো এটি কুরআনকে অপূর্ণাঙ্গ ও অসম্পূর্ণ মনে করতে বাধ্য করে। যখন বলা হয় যে হাদীস ছাড়া কুরআন বোঝা বা বাস্তবায়ন সম্ভব নয়, তখন প্রকৃতপক্ষে কুরআনের পূর্ণতা ও স্বয়ংসম্পূর্ণতার দাবিকেই অস্বীকার করা হয়।
+                </p>
+                <div class="bg-red-50 p-3 rounded-lg">
+                  <p class="text-red-800 text-xs font-medium">
+                    <i class="fas fa-exclamation-triangle mr-2"></i>
+                    হাদীসের প্রয়োজনীয়তার দাবি কুরআনের মৌলিক দাবিগুলোর সাথে সরাসরি সাংঘর্ষিক
+                  </p>
+                </div>
+              </div>
+
+              <div class="bg-white rounded-xl p-6 shadow-lg border-t-4 border-orange-500">
+                <div class="flex items-center mb-4">
+                  <i class="fas fa-layer-group text-orange-600 text-2xl mr-3"></i>
+                  <h3 class="font-bengali text-xl font-bold text-orange-800">দ্বীনকে জটিল বানানো</h3>
+                </div>
+                <p class="text-secondary text-sm mb-4">
+                  হাদীস মানার ফলে দ্বীন বা ধর্মীয় জীবনযাপন অত্যন্ত জটিল ও কঠিন হয়ে পড়ে। হাদীসের ভাণ্ডার অত্যন্ত বিশাল, যেখানে লক্ষ লক্ষ বর্ণনা রয়েছে। এই বর্ণনাগুলোর মধ্যে রয়েছে পরস্পরবিরোধিতা, অস্পষ্টতা।
+                </p>
+                <div class="bg-orange-50 p-3 rounded-lg">
+                  <p class="text-orange-800 text-xs font-medium">
+                    <i class="fas fa-info-circle mr-2"></i>
+                    কুরআন নিজেকে সহজবোধ্য বলে দাবি করেছে, কিন্তু হাদীসের বোঝা চাপিয়ে দিয়ে দ্বীনকে কঠিন করা হয়েছে
+                  </p>
+                </div>
+              </div>
+
+              <div class="bg-white rounded-xl p-6 shadow-lg border-t-4 border-blue-500">
+                <div class="flex items-center mb-4">
+                  <i class="fas fa-users-slash text-blue-600 text-2xl mr-3"></i>
+                  <h3 class="font-bengali text-xl font-bold text-blue-800">বিভেদ ও অনৈক্য সৃষ্টি</h3>
+                </div>
+                <p class="text-secondary text-sm mb-4">
+                  হাদীস মুসলিম উম্মাহর মধ্যে বিভেদ ও অনৈক্য সৃষ্টির একটি বড় কারণ। বিভিন্ন মাযহাব ও ফিরকার আলেমগণ বিভিন্ন হাদীসকে ভিত্তি করে নিজ নিজ মতবাদ প্রতিষ্ঠা করেছেন। একই বিষয়ে বিভিন্ন মাযহাবে ভিন্ন ভিন্ন হাদীস প্রাধান্য পায়।
+                </p>
+                <div class="bg-blue-50 p-3 rounded-lg">
+                  <p class="text-blue-800 text-xs font-medium">
+                    <i class="fas fa-handshake mr-2"></i>
+                    কুরআনই হলো মুসলিম উম্মাহর ঐক্যের ভিত্তি, হাদীস নয়
+                  </p>
+                </div>
+              </div>
+
+              <div class="bg-white rounded-xl p-6 shadow-lg border-t-4 border-green-500">
+                <div class="flex items-center mb-4">
+                  <i class="fas fa-arrow-right-from-bracket text-green-600 text-2xl mr-3"></i>
+                  <h3 class="font-bengali text-xl font-bold text-green-800">কুরআন থেকে দূরে সরিয়ে নেয়া</h3>
+                </div>
+                <p class="text-secondary text-sm mb-4">
+                  হাদীসের প্রতি অত্যধিক গুরুত্ব আরোপের ফলে মুসলমানরা প্রায়শই কুরআন থেকে দূরে সরে যায়। অনেক মুসলমান হাদীস পড়ে ও মানে, কিন্তু কুরআন তিলাওয়াত ও অধ্যয়ন থেকে বিরত থাকে।
+                </p>
+                <div class="bg-green-50 p-3 rounded-lg">
+                  <p class="text-green-800 text-xs font-medium">
+                    <i class="fas fa-book-quran mr-2"></i>
+                    কুরআনই হলো আল্লাহর সরাসরি বাণী এবং হিদায়াতের একমাত্র নিশ্চিত উৎস
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="mt-8 bg-gradient-to-r from-red-50 to-orange-50 border border-red-200 rounded-xl p-6">
+              <h3 class="font-bengali text-xl font-bold text-red-800 mb-4 text-center">
+                <i class="fas fa-exclamation-triangle text-red-600 mr-2"></i>সতর্কবার্তা
+              </h3>
+              <p class="text-secondary text-center">
+                হাদীসের প্রতি এই অতিমাত্রায় নির্ভরশীলতা মুসলমানদেরকে কুরআনের কেন্দ্রীয়তা থেকে সরিয়ে নিয়ে গিয়ে একটি বিকৃত ও বিভ্রান্ত ধর্মীয় চর্চার দিকে ঠেলে দেয়। কুরআনের মূল শিক্ষা থেকে বিচ্যুত হওয়া মানে গন্তব্য থেকে দূরে সরে যাওয়া।
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="section-divider"></div>
+
+      <!-- Conclusion Section -->
+      <section id="conclusion" class="py-16 bg-base-100">
+        <div class="container mx-auto px-6">
+          <div class="max-w-4xl mx-auto">
+            <h2 class="font-bengali text-3xl font-bold text-primary mb-8">উপসংহার: কুরআনকেন্দ্রিক জীবনব্যবস্থার আহ্বান</h2>
+
+            <div class="mb-8">
+              <img src="https://kimi-web-img.moonshot.cn/img/cdn.jugantor.com/cbfbce07ce8a1fcb780c611711e88505723db9fc.jpg" alt="কুরআনের উপর হাত রেখে ইসলামিক শপথ" class="w-full h-64 object-cover rounded-xl shadow-lg" size="medium" aspect="wide" style="photo" query="কুরআনের উপর হাত রেখে শপথ" referrerpolicy="no-referrer" data-modified="1" data-score="11599.00"/>
+            </div>
+
+            <div class="space-y-8">
+              <div class="highlight-box p-8 rounded-xl">
+                <h3 class="font-bengali text-2xl font-bold text-primary mb-4">
+                  <i class="fas fa-star text-accent mr-3"></i>প্রধান সিদ্ধান্ত
+                </h3>
+                <p class="text-secondary text-lg mb-6">
+                  এই বিশ্লেষণে বারবার প্রমাণিত হয়েছে যে, <strong class="text-primary">কুরআন মজিদ একটি পূর্ণাঙ্গ, স্বয়ংসম্পূর্ণ, সুস্পষ্ট ও যথেষ্ট জীবন বিধান</strong>। এটি সকল প্রয়োজনীয় হিদায়াত, ব্যাখ্যা ও নীতিমালা ধারণ করে।
+                </p>
+                <p class="text-secondary text-lg">
+                  অন্যদিকে, <strong class="text-primary">হাদীস নামে প্রচলিত রাসূলুল্লাহ (সা.)-এর বাণী ও কর্ম সম্পর্কিত বর্ণনাগুলো ঐতিহাসিকভাবে সমস্যাযুক্ত, সনদ ও মতনের দিক থেকে দুর্বল, এবং প্রায়শই কুরআন, বিজ্ঞান, যুক্তি, নৈতিকতা ও ঐতিহাসিক সত্যের সাথে সাংঘর্ষিক</strong>।
+                </p>
+              </div>
+
+              <div class="bg-gradient-to-r from-blue-50 to-indigo-50 border border-blue-200 rounded-xl p-8">
+                <h3 class="font-bengali text-2xl font-bold text-blue-800 mb-6">
+                  <i class="fas fa-compass text-blue-600 mr-3"></i>কুরআনকেন্দ্রিক হওয়ার আহ্বান
+                </h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                  <div>
+                    <h4 class="font-bengali font-bold text-blue-800 mb-3">আমাদের করণীয়:</h4>
+                    <ul class="space-y-2 text-secondary text-sm">
+                      <li class="flex items-start">
+                        <i class="fas fa-check text-green-600 mr-2 mt-1"></i>
+                        ইসলামের প্রকৃত অনুসরণের জন্য অবশ্যই কুরআনকেন্দ্রিক হতে হবে
+                      </li>
+                      <li class="flex items-start">
+                        <i class="fas fa-check text-green-600 mr-2 mt-1"></i>
+                        ধর্মীয় বিশ্বাস, ইবাদত, নৈতিকতার একমাত্র ভিত্তি কুরআন
+                      </li>
+                      <li class="flex items-start">
+                        <i class="fas fa-check text-green-600 mr-2 mt-1"></i>
+                        রাসূলুল্লাহ (সা.)-এর প্রকৃত সুন্নাহ ছিল কুরআনকে কেন্দ্র করে জীবন গঠন
+                      </li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h4 class="font-bengali font-bold text-blue-800 mb-3">পরিত্যাগ করা:</h4>
+                    <ul class="space-y-2 text-secondary text-sm">
+                      <li class="flex items-start">
+                        <i class="fas fa-times text-red-600 mr-2 mt-1"></i>
+                        হাদীসের অন্ধ অনুকরণ
+                      </li>
+                      <li class="flex items-start">
+                        <i class="fas fa-times text-red-600 mr-2 mt-1"></i>
+                        মতপার্থক্য ও বিভেদ
+                      </li>
+                      <li class="flex items-start">
+                        <i class="fas fa-times text-red-600 mr-2 mt-1"></i>
+                        অযৌক্তিক ও অস্পষ্ট বর্ণনার অনুসরণ
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="bg-gradient-to-r from-green-50 to-emerald-50 border border-green-200 rounded-xl p-8">
+                <h3 class="font-bengali text-2xl font-bold text-green-800 mb-4 text-center">
+                  <i class="fas fa-seedling text-green-600 mr-3"></i>প্রকৃত সফলতার পথ
+                </h3>
+                <p class="text-secondary text-center text-lg mb-6">
+                  আমাদেরকে কুরআনের সার্বজনীন, যৌক্তিক ও মানবিক শিক্ষার আলোকে একটি সুন্দর ও শান্তিপূর্ণ জীবন গড়ে তুলতে হবে। কুরআনের শিক্ষা হলো সর্বজনীন ও চিরন্তন, যা সকল যুগে ও সমাজে প্রযোজ্য।
+                </p>
+                <div class="text-center">
+                  <blockquote class="arabic-text text-2xl text-primary font-bold mb-3">
+                    أَوَلَمْ يَكْفِهِمْ أَنَّا أَنزَلْنَا عَلَيْكَ الْكِتَابَ يُتْلَىٰ عَلَيْهِمْ
+                  </blockquote>
+                  <p class="text-secondary text-lg font-medium">
+                    &#34;কুরআনই যথেষ্ট, এর বাইরে অন্য কোনো ধর্মীয় উৎসের প্রয়োজন নেই&#34;
+                  </p>
+                </div>
+              </div>
+
+              <div class="bg-primary text-white rounded-xl p-8 text-center">
+                <h3 class="font-bengali text-2xl font-bold mb-4">
+                  <i class="fas fa-mosque text-accent mr-3"></i>চূড়ান্ত বার্তা
+                </h3>
+                <p class="text-lg mb-4">
+                  এই কুরআনকেন্দ্রিক জীবনব্যবস্থাই আমাদেরকে প্রকৃত হিদায়াত ও সফলতার দিকে পরিচালিত করবে। কুরআনের মর্যাদা রক্ষা করুন, এর শিক্ষাকে বুঝুন এবং বাস্তব জীবনে প্রয়োগ করুন।
+                </p>
+                <p class="text-xl font-bold text-accent">
+                  আল্লাহ আমাদের সকলকে সঠিক পথের দিশা দিন। আমীন।
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="bg-neutral text-white py-8">
+        <div class="container mx-auto px-6 text-center">
+          <p class="text-sm opacity-75">
+            এই গবেষণাপত্রটি কুরআন ও যুক্তির আলোকে প্রস্তুত করা হয়েছে। সকল মুসলমানের জন্য কল্যাণকর পথ প্রদর্শনের উদ্দেশ্য রচিত।                         ABDUR RAHMAN ALFAT (AUTHOR), NATORE, BANGLADESH.  Contact: rahmanalfath21923@gmail.com
+          </p>
+        </div>
+      </footer>
+    </div>
+
+    <!-- Smooth Scrolling Script -->
+    <script>
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Highlight active section in TOC
+        const sections = document.querySelectorAll('section[id]');
+        const tocLinks = document.querySelectorAll('.toc-link');
+
+        function highlightActiveSection() {
+            let current = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                if (window.scrollY >= sectionTop - 200) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            tocLinks.forEach(link => {
+                link.classList.remove('bg-blue-100', 'text-blue-800', 'border-blue-500');
+                if (link.getAttribute('href') === `#${current}`) {
+                    link.classList.add('bg-blue-100', 'text-blue-800', 'border-blue-500');
+                }
+            });
+        }
+
+        window.addEventListener('scroll', highlightActiveSection);
+        highlightActiveSection(); // Initial call
+    </script>
+  
+
+</body></html>
